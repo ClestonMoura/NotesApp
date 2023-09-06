@@ -1,8 +1,8 @@
-package com.mouracleston.notesapp.database
+package com.mouracleston.notesapp.repository.offline.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.mouracleston.notesapp.dao.NoteDao
+import com.mouracleston.notesapp.repository.offline.dao.NoteDao
 import com.mouracleston.notesapp.model.Note
 
 @Database(entities = [Note::class], version = 1)

@@ -1,4 +1,4 @@
-package com.mouracleston.notesapp.dao
+package com.mouracleston.notesapp.repository.offline.dao
 
 import androidx.room.Dao
 import androidx.room.Query
